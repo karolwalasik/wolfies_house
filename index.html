@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wolfies House</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=greek-ext" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- menu nawigacyjne -->
+
+        <nav>
+            <ul class="flex">
+                <li>
+                    <a data-scroll href="#about">O nas</a>
+                </li>
+                <li>
+                    <a data-scroll href="#whyus">Dlaczego my?</a>
+                </li>
+                <li>
+                    <a data-scroll href="#">Nasze oferty</a>
+                </li>
+                <li>
+                    <a data-scroll href="#career">Kariera</a>
+                </li>
+                <li>
+                    <a data-scroll href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_cont">
+            <div class="left basis50"><img class="logo" src="img/wolfie_white.png" alt="Wolfies House logo"></div>
+            <div class="right basis50 flex">
+                <h1>Agencja nieruchomości
+
+                </h1>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <section id="about">
+        <h2 data-aos="fade-up">O nas</h2>
+        <p data-aos="fade-up">Wolfies House to profesjonalne biuro nieruchomości świadczące usługi w
+            zakresie pośrednictwa w obrocie nieruchomościami.
+            Służymy Państwu pomocą przy kupnie, sprzedaży oraz wynajmie mieszkań, domów i działek.
+            Dzięki wieloletniemu doświadczeniu oraz znajomości rynku nieruchomości udzielamy naszym
+            klientom fachowych porad niezbędnych dla zrealizowania najbardziej korzystnych transakcji
+        </p>
+    </section>
+
+    <section id="whyus">
+        <h2 data-aos="fade-up">Dlaczego my?</h2>
+        <p data-aos="fade-up"> Wolfies House istnieje żeby pomagać Klientom oraz Właścicielom szybko,
+            wygodnie i bez ryzyka
+            sprzedać, kupić i wynająć nieruchomości.</p>
+        <div class="whyus_cont flex">
+            <div class="whyus_left basis50">
+                <p class="" data-aos="fade-down-left">579 647 665<br>
+                    wolfieshouse@gmail.com<br>
+                    Zapraszamy do kontaktu!<br>
+                </p>
+            </div>
+            <div class="whyus_right basis50 flex">
+                <a href="#" data-aos="fade-down-right">Nasze oferty</a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="career">
+        <h2 data-aos="fade-up">Kariera</h2>
+        <p data-aos="fade-up">Jesteś zainteresowany/a pracą w branży Nieruchomości?<br>
+            Chcesz być częścią młodego, zgranego i energicznego zespołu?<br>
+            Jesteś osobą komunikatywną i otwartą na nowe doświadczenia?<br><br>
+            Wyślij swoje CV na adres mailowy:<br>
+            wolfieshouse@gmail.com<br>
+            Zapewniamy wszystkie niezbędne szkolenia przed rozpoczęciem pracy w Naszym biurze.<br>
+        </p>
+    </section>
+
+    <section id="contact">
+        <div class="contact_left basis50 flex">
+            <p data-aos="fade-right">Wolfies House<br>
+                30-085 Kraków<br>
+                Czyżewskiego 3/100<br>
+                +48 579 647 665<br>
+                wolfieshouse@gmail.com<br>
+                NIP: 7991973545<br>
+                REGON: 380828612<br>
+            </p>
+        </div>
+        <div class="contact_right basis50 flex">
+            <div class="form" data-aos="fade-left">
+                <form action="https://formspree.io/karol.walasik@gmail.com" method="post">
+
+                    <input type="text" name="imie_i_nazwisko" placeholder="Imię i Nazwisko">
+                    <br>
+
+                    <input type="text" name="nazwisko" placeholder="Email">
+                    <br>
+
+                    <textarea name="wiadomosc" cols="30" rows="10" placeholder="Treść wiadomości"></textarea>
+                    <br>
+                    <input type="submit" value="Wyślij!">
+                    <div class="clear"></div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800
+        });
+    </script>
+</body>
+
+</html>
