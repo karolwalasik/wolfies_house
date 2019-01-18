@@ -55,11 +55,20 @@ nav a:hover {
 header {
 
     height: 100vh;
-    background-image: url("img/tlo_zmaska77.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+
+}
+
+header::after {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    background: url("img/tlo_zmaska77.jpg") no-repeat 50% 50%;
     background-size: cover;
-    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -182,6 +191,7 @@ h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #24242b;
 
 }
 
@@ -304,6 +314,16 @@ input[type="submit"]:hover {
     }
 }
 
+@media (max-width: 1200px) and (min-height: 1000px) {
+    .logo {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+}
 
 
 @media (max-width: 968px) {
@@ -327,34 +347,8 @@ input[type="submit"]:hover {
 
 
 @media (max-width: 768px) {
-
-
-    #contact {
-
-        background-color: #24242b;
-    }
-
-    header {
-        background-image: url("img/tlo_zmaska77_resp.jpg");
-        background-attachment: scroll;
-        background-size: cover;
-
-
-
-    }
-
     header::after {
-        content: "";
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        display: block;
         background: url("img/tlo_zmaska77_resp.jpg") no-repeat 50% 50%;
-        background-size: cover;
-        overflow: hidden;
     }
 
     .toggle {
@@ -399,7 +393,7 @@ input[type="submit"]:hover {
 
     h1 {
         padding: 0;
-        font-size: 28px;
+        font-size: 36px;
         margin: 0;
     }
 
@@ -460,6 +454,12 @@ input[type="submit"]:hover {
 @media (orientation: landscape) and (max-width: 768px) {
     .logo {
         width: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
     }
 }
 
