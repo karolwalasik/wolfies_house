@@ -57,7 +57,7 @@ nav a:hover {
 header {
 
     height: 100vh;
-
+    overflow-x: hidden;
 }
 
 header::after {
@@ -74,7 +74,7 @@ header::after {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .header_cont {
