@@ -250,6 +250,12 @@ input[type="submit"]:hover {
     }
 }
 
+@media (max-width: 968px) and (orientation: landscape) {
+    .logo {
+        width: 40%;
+    }
+}
+
 @media (max-width: 968px) {
     h1 {
         font-size: 29px;
