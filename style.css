@@ -57,6 +57,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
 }
 
@@ -319,10 +322,8 @@ input[type="submit"]:hover {
 
     header {
         background-image: url("img/tlo_zmaska77_resp.jpg");
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+
+
         background-size: cover;
     }
 
