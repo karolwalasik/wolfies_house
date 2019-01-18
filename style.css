@@ -250,11 +250,7 @@ input[type="submit"]:hover {
     }
 }
 
-@media (max-width: 968px) and (orientation: landscape) {
-    .logo {
-        width: 40%;
-    }
-}
+
 
 @media (max-width: 968px) {
     h1 {
@@ -273,6 +269,8 @@ input[type="submit"]:hover {
         width: 40%;
     }
 }
+
+
 
 @media (max-width: 768px) {
     header {
@@ -299,7 +297,7 @@ input[type="submit"]:hover {
 
     }
 
-    .showmenu {
+    .hidemenu {
         display: none;
     }
 
@@ -346,8 +344,20 @@ input[type="submit"]:hover {
     }
 }
 
+@media (orientation: landscape) and (max-width: 768px) {
+    .logo {
+        width: 30%;
+    }
+}
+
 @media (max-width: 576px) {
     .logo {
         width: 50%;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 576px) {
+    .logo {
+        width: 25%;
     }
 }
