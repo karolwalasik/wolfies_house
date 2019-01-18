@@ -267,7 +267,9 @@ input[type="submit"]:hover {
 }
 
 @media handheld {
-    background-attachment: scroll;
+    header {
+        background-attachment: scroll;
+    }
 }
 
 @media (max-width: 1440px) {
