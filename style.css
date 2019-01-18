@@ -331,7 +331,7 @@ input[type="submit"]:hover {
 
     header {
         background-image: url("img/tlo_zmaska77_resp.jpg");
-
+        background-attachment: scroll;
 
 
     }
