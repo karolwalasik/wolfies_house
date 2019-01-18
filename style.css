@@ -4,7 +4,7 @@
 }
 
 body {
-
+    overflow-x: hidden;
     -webkit-box-sizing: border-box;
 
     box-sizing: border-box;
@@ -40,6 +40,8 @@ li {
     list-style: none;
 }
 
+
+
 nav a {
     color: white;
     text-decoration: none;
@@ -51,6 +53,7 @@ nav a:hover {
 }
 
 header {
+
     height: 100vh;
     background-image: url("img/tlo_zmaska77.jpg");
     background-position: center;
@@ -263,6 +266,10 @@ input[type="submit"]:hover {
     display: none;
 }
 
+@media handheld {
+    background-attachment: scroll;
+}
+
 @media (max-width: 1440px) {
     h1 {
         font-size: 44px;
@@ -324,7 +331,7 @@ input[type="submit"]:hover {
         background-image: url("img/tlo_zmaska77_resp.jpg");
 
 
-        background-size: cover;
+
     }
 
     .toggle {
@@ -333,6 +340,10 @@ input[type="submit"]:hover {
 
     nav a {
         padding: 5px;
+    }
+
+    .whyus_right {
+        padding-bottom: 20px;
     }
 
     li {
