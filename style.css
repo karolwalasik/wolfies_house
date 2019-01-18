@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 body {
     overflow-x: hidden;
     -webkit-box-sizing: border-box;
@@ -72,7 +74,7 @@ header::after {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
+    overflow: hidden;
 }
 
 .header_cont {
@@ -252,6 +254,11 @@ textarea {
 
 input {
     margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+textarea {
+    border-radius: 3px;
 }
 
 input[type="submit"] {
