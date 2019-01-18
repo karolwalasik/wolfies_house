@@ -52,7 +52,7 @@ header {
 }
 
 .header_cont {
-    height: 100%;
+    height: calc(100% - 59px);
     display: flex;
 }
 
@@ -74,7 +74,7 @@ header {
 }
 
 h1 {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     margin-right: 40px;
     font-size: 48px;
     border-bottom: 5px solid #d9c892;
@@ -209,4 +209,136 @@ input[type="submit"] {
 input[type="submit"]:hover {
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(245, 225, 159, 1);
+}
+
+.toggle {
+    text-align: right;
+    font-size: 24px;
+    padding: 20px;
+    display: none;
+}
+
+@media (max-width: 1440px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .form {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .right {
+        padding: 40px;
+    }
+
+    .form {
+        width: 50%;
+    }
+}
+
+@media (max-width: 968px) {
+    h1 {
+        font-size: 29px;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+    input[type="submit"] {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .toggle {
+        display: block;
+    }
+
+    nav a {
+        padding: 5px;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    ul {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    .showmenu {
+        display: none;
+    }
+
+    .header_cont {
+        flex-direction: column;
+    }
+
+    h1 {
+        padding: 0;
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 40%;
+        padding: 0;
+    }
+
+    .right {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whyus_cont {
+        flex-direction: column;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 50%;
+    }
 }

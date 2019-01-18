@@ -8,8 +8,8 @@
     <title>Wolfies House</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=greek-ext" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
@@ -19,7 +19,8 @@
         <!-- menu nawigacyjne -->
 
         <nav>
-            <ul class="flex">
+
+            <ul class="flex" class="showmenu" id="menu">
                 <li>
                     <a data-scroll href="#about">O nas</a>
                 </li>
@@ -27,7 +28,8 @@
                     <a data-scroll href="#whyus">Dlaczego my?</a>
                 </li>
                 <li>
-                    <a data-scroll href="#">Nasze oferty</a>
+                    <a data-scroll href="https://www.gumtree.pl/u-oferty-sprzedazy/wolfies-house/v1u114323350p1" target="_blank">Nasze
+                        oferty</a>
                 </li>
                 <li>
                     <a data-scroll href="#career">Kariera</a>
@@ -36,6 +38,7 @@
                     <a data-scroll href="#contact">Kontakt</a>
                 </li>
             </ul>
+            <div class="toggle"><i id="toggleButton" class="fa fa-bars"></i></div>
         </nav>
         <div class="header_cont">
             <div class="left basis50"><img class="logo" src="img/wolfie_white.png" alt="Wolfies House logo"></div>
@@ -73,7 +76,8 @@
                 </p>
             </div>
             <div class="whyus_right basis50 flex">
-                <a href="#" data-aos="fade-down-right">Nasze oferty</a>
+                <a href="https://www.gumtree.pl/u-oferty-sprzedazy/wolfies-house/v1u114323350p1" target="_blank"
+                    data-aos="fade-down-right">Nasze oferty</a>
 
             </div>
         </div>
@@ -133,6 +137,7 @@
             speed: 800
         });
     </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
