@@ -329,6 +329,10 @@ input[type="submit"]:hover {
 @media (max-width: 768px) {
 
 
+    #contact {
+
+        background-color: #24242b;
+    }
 
     header {
         background-image: url("img/tlo_zmaska77_resp.jpg");
@@ -350,6 +354,7 @@ input[type="submit"]:hover {
         display: block;
         background: url("img/tlo_zmaska77_resp.jpg") no-repeat 50% 50%;
         background-size: cover;
+        overflow: hidden;
     }
 
     .toggle {
