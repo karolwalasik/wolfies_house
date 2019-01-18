@@ -4,6 +4,9 @@
 }
 
 
+html {
+    overflow-x: hidden;
+}
 
 body {
     overflow-x: hidden;
@@ -254,11 +257,11 @@ textarea {
 
 input {
     margin-bottom: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 textarea {
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 input[type="submit"] {
